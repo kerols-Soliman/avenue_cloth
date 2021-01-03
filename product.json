@@ -1,0 +1,197 @@
+{
+    "T_shirt":[
+        {
+            "id":1,
+            "image":"image/mens-tops-1.webp",
+            "productName":"red T-shirt",
+            "price":"17$",
+            "descripe":"this is a t-shirt product with heigh industry's quiality "
+        },
+        {
+            "id":2,
+            "image":"image/mens-tops-2.jpg",
+            "productName":"blue T-shirt",
+            "price":"17$",
+            "descripe":"this is a t-shirt product with heigh industry's quiality "
+        },
+        {
+            "id":3,
+            "image":"image/mens-tops-3.jpg",
+            "productName":"T-shirt",
+            "price":"17$",
+            "descripe":"this is a t-shirt product with heigh industry's quiality "
+        },
+        {
+            "id":4,
+            "image":"image/mens-tops-4.jpg",
+            "productName":"T-shirt",
+            "price":"17$",
+            "descripe":"this is a t-shirt product with heigh industry's quiality "
+        },
+        {
+            "id":5,
+            "image":"image/mens-tops-5.jpg",
+            "productName":"T-shirt",
+            "price":"17$",
+            "descripe":"this is a t-shirt product with heigh industry's quiality "
+        },
+        {
+            "id":6,
+            "image":"image/mens-tops-6.jpg",
+            "productName":"T-shirt",
+            "price":"17$",
+            "descripe":"this is a t-shirt product with heigh industry's quiality "
+        },
+        {
+            "id":7,
+            "image":"image/mens-tops-7.jpg",
+            "productName":"T-shirt",
+            "price":"17$",
+            "descripe":"this is a t-shirt product with heigh industry's quiality "
+        },
+        {
+            "id":8,
+            "image":"image/mens-tops-8.webp",
+            "productName":"T-shirt",
+            "price":"17$",
+            "descripe":"this is a t-shirt product with heigh industry's quiality "
+        }
+    ],
+    "Jeans":[
+        {
+            "id":1,
+            "image":"image/jens-1.jpg",
+            "productName":"T-shirt",
+            "price":"17$",
+            "descripe":"this is a Jeans product with heigh industry's quiality "
+        },{
+            "id":2,
+            "image":"image/jens-2.jpg",
+            "productName":"T-shirt",
+            "price":"17$",
+            "descripe":"this is a Jeans product with heigh industry's quiality "
+        },{
+            "id":3,
+            "image":"image/jens-3.jpg",
+            "productName":"T-shirt",
+            "price":"17$",
+            "descripe":"this is a Jeans product with heigh industry's quiality "
+        },{
+            "id":4,
+            "image":"image/jens-4.jpg",
+            "productName":"T-shirt",
+            "price":"17$",
+            "descripe":"this is a Jeans product with heigh industry's quiality "
+        },{
+            "id":5,
+            "image":"image/jens-5.jpg",
+            "productName":"T-shirt",
+            "price":"17$",
+            "descripe":"this is a Jeans product with heigh industry's quiality "
+        },{
+            "id":6,
+            "image":"image/jens-6.jpg",
+            "productName":"T-shirt",
+            "price":"17$",
+            "descripe":"this is a Jeans product with heigh industry's quiality "
+        },{
+            "id":7,
+            "image":"image/jens-5.jpg",
+            "productName":"T-shirt",
+            "price":"17$",
+            "descripe":"this is a Jeans product with heigh industry's quiality "
+        },{
+            "id":8,
+            "image":"image/jens-4.jpg",
+            "productName":"T-shirt",
+            "price":"17$",
+            "descripe":"this is a Jeans product with heigh industry's quiality "
+        }
+    ],
+    "dress":[
+        {
+            "id":1,
+            "image":"image/womens-dresses-1.jpg",
+            "productName":"dress",
+            "price":"120$",
+            "descripe":"this is a dress product with heigh industry's quiality "
+        },
+        {
+            "id":2,
+            "image":"image/womens-dresses-2.jpg",
+            "productName":"dress",
+            "price":"120$",
+            "descripe":"this is a dress product with heigh industry's quiality "
+        },
+        {
+            "id":3,
+            "image":"image/womens-dresses-3.jpg",
+            "productName":"dress",
+            "price":"120$",
+            "descripe":"this is a dress product with heigh industry's quiality "
+        },
+        {
+            "id":4,
+            "image":"image/womens-dresses-4.jpg",
+            "productName":"dress",
+            "price":"120$",
+            "descripe":"this is a dress product with heigh industry's quiality "
+        },
+        {
+            "id":5,
+            "image":"image/womens-dresses-5.jpg",
+            "productName":"dress",
+            "price":"120$",
+            "descripe":"this is a dress product with heigh industry's quiality "
+        },
+        {
+            "id":6,
+            "image":"image/womens-dresses-6.jpg",
+            "productName":"dress",
+            "price":"120$",
+            "descripe":"this is a dress product with heigh industry's quiality "
+        },
+        {
+            "id":7,
+            "image":"image/womens-dresses-7.jpg",
+            "productName":"dress",
+            "price":"120$",
+            "descripe":"this is a dress product with heigh industry's quiality "
+        },
+        {
+            "id":8,
+            "image":"image/womens-dresses-8.jpg",
+            "productName":"dress",
+            "price":"120$",
+            "descripe":"this is a dress product with heigh industry's quiality "
+        },
+        {
+            "id":9,
+            "image":"image/womens-dresses-9.jpg",
+            "productName":"dress",
+            "price":"120$",
+            "descripe":"this is a dress product with heigh industry's quiality "
+        },
+        {
+            "id":10,
+            "image":"image/womens-dresses-10.jpg",
+            "productName":"dress",
+            "price":"120$",
+            "descripe":"this is a dress product with heigh industry's quiality "
+        },
+        {
+            "id":11,
+            "image":"image/womens-dresses-11.jpg",
+            "productName":"dress",
+            "price":"120$",
+            "descripe":"this is a dress product with heigh industry's quiality "
+        },
+        {
+            "id":12,
+            "image":"image/womens-dresses-12.jpg",
+            "productName":"dress",
+            "price":"120$",
+            "descripe":"this is a dress product with heigh industry's quiality "
+        }
+    ]
+}

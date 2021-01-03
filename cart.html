@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cart</title>
+
+        <link rel="stylesheet" href="cs.css">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+        <link rel="shortcut icon" href="image/icon.png" type="image/x-icon">
+        <script src="js.js"></script>
+
+    </head>
+    <body class="cart-page">
+        <div class=" bg-light">
+
+        
+            <nav class="container navbar navbar-expand-lg navbar-light bg-light py-0">
+                <div style="max-width: 60%;" >
+                    <a class="navbar-brand" href="index.html" style="display: contents;">
+                        <img src="image/logo.png" class="img-fluid py-1" style="width: 60%!important;" alt="">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mr-1 p-2">
+                            <a class="nav-link" href="index.html#man's">Men's</a>
+                        </li>
+                        <li class="nav-item mr-1 p-2">
+                            <a class="nav-link" href="index.html#dress_product">Woman's</a>
+                        </li>
+                        <li class="nav-item mr-1 p-2">
+                            <a class="nav-link" href="#">Kide's</a>
+                        </li>
+                       
+                        <li class="nav-item mr-1 p-2 btn-cart">
+                            <a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                        </li>
+                        
+                        <li class="nav-item mr-1 p-2 nav-login">
+                            <a class="nav-link border rounded" href="#" data-toggle="modal" data-target="#exampleModal">Login</a>
+                        </li>
+                        <li class="nav-item mr-1 p-2 nav-regist">
+                            <a class="nav-link border rounded" href="#" data-toggle="modal" data-target="#exampleModalregist">Regist</a>
+                        </li>
+                        <li class="nav-item mr-1 p-2 nav-Sign-Out" >
+                            <a class="nav-link border rounded btn-sign-out" href="index.html">Sign Out</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            
+            
+            
+        </div>
+
+        <div class="container pt-3">
+            <table class="table table-bordered">
+                <thead class=" table-danger">
+                    <tr class="text-center">
+                        <th scope="col">Product</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Edit</th>
+                    </tr>
+                </thead>
+                <tbody class="cart-product-view ">
+                                       
+                </tbody>
+            </table>
+            
+        </div>
+
+        
+
+
+        <footer class="background-gray">
+            <div class="container">
+                <div class="row justify-content-around py-4">
+                    <div class="col-12 col-md-6">
+                        <h3>Shop by category</h3>
+                        <p class="pl-1" style="color: #6b6f81;">and find what you need</p>
+                        <ul class="list-unstyled text-sm pt-1 pl-4">
+                            <li class="mb-2"> 
+                                <a class="text-muted text-hover-dark link-animated" href="#man's">Man's</a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="text-muted text-hover-dark link-animated" href="#dress_product">Woman's</a>
+                            </li>
+                            <li class="mb-2"> 
+                                <a class="text-muted text-hover-dark link-animated" href="#">Kide's</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h3>Stay in avenue</h3>
+                        <ul class="list-unstyled text-sm pt-1 row justify-content-center" >
+                            <li class=" mr-1 p-2 nav-login col-8 col-md-3">
+                                <a class="nav-link border rounded text-center footer" href="#" data-toggle="modal" data-target="#exampleModal">Login</a>
+                            </li>
+                            <li class="mr-1 p-2 nav-regist col-8 col-md-3">
+                                <a class="nav-link border rounded text-center footer" href="#" data-toggle="modal" data-target="#exampleModalregist">Regist</a>
+                            </li>
+                            <li class="mr-1 p-2 nav-Sign-Out col-8 col-md-6" >
+                                <a class="nav-link border rounded btn-sign-out text-center footer" href="index.html">Sign Out</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+        
+        <div class="showEditDiv d-none w-100 m-auto ">
+            <div class="container showEditDiv2 border rounded shadow-lg">
+                <div class="row  p-2 ">
+                    <div class="col-12 col-md-5 d-flex justify-content-center align-items-center">
+                        <img src="image/mens-tops-1.webp" class="img-fluid edit-product-image" style="width: 60%;" alt="">
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <h1 class="edit-product-Name">red tshirt</h1>
+                        <h3 class="edit-product-Price">17$</h3>
+                        
+                        <p>Quantity</p>
+                        <div class="row ">
+                            <button class="btn  btn-orange col-1 rounded-left btn-Decrease" style="border-radius:0;">-</button>
+                            <div class="border-0 rounded-left p-0  col-1  d-flex justify-content-center">
+                                <input type="text" class="form-control text-center rounded-0 px-1 btn-orange border-0 edit-product-Quantity" id="formGroupExampleInput" value="1" disabled>
+                            </div>
+                            <button class="btn  btn-orange col-1 rounded-right btn-Increase" style="border-radius:0;">+</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row justify-content-center py-2">
+                    <button class="btn btn-primary btn-orange mr-1 edit-product-btn-save">Save</button>
+                    <button class="btn btn-danger btn-orange btn-remove mr-1 ">
+                        <i class='fas fa-trash-alt'></i>
+                    </button>
+                    <button class="btn btn-primary btn-orange CloseshowProductDetail">close</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+.nav-item:hover{
+    background-color: #e32e00;
+}
+.nav-item:hover a{
+    color: white !important;
+}
+.nav-Sign-Out
+,.passNotCorrect
+,.btn-cart{
+    display: none;
+}
+/*modal-header-login*/
+.modal-header-login{
+    background-color: rgb(227, 46, 0,.9);
+    color: white !important;
+}
+.btn-orange{
+    background-color: rgb(227, 46, 0) !important;
+    color: white !important;
+    border: none !important;
+}
+.btn-orange:hover{
+    color: rgb(227, 46, 0) !important;
+    background-color: white !important;
+    border: 1px solid rgb(227, 46, 0)!important;
+}
+
+header{
+    background-image: url(image/shopify-.jpg);
+    background-size: cover;
+    color: white;
+}
+.background-gray{
+    background-color: #edeef4;
+}
+.card-text{
+    color: rgb(227, 46, 0) !important;
+    font-weight: bold;
+}
+.future-icon{
+    color:#003a6d;
+    font-size: xx-large;
+}
+.size:hover{
+    background-color: rgb(227, 46, 0,.9);
+    color: white;
+}
+.sizeclicked{
+    background-color: rgb(227, 46, 0,.9);
+    color: white;
+}
+.details-image{
+    width: 50%;
+}
+.showProductDetails2,.showEditDiv2{
+    background-color: white;
+}
+.showProductDetails,.showEditDiv{
+    position: fixed;
+    top: 10%;
+}
+
+.btn-edit{
+    background-color: #f5c6cb !important;
+    color: black !important;
+    border-color: #ed969e !important;
+}
+
+.cart-product-img{
+    width: 15%;
+}
+.td{
+    vertical-align: middle !important;
+}
+.footer{
+    background-color: rgb(227, 46, 0) !important;
+    color: white !important;
+}
+.footer:hover{
+    color: rgb(227, 46, 0) !important;
+    background-color: white !important;
+    border: 1px solid rgb(227, 46, 0) !important;
+}
